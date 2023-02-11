@@ -57,7 +57,8 @@ function updateVersion(targetFilesInfo, scriptId, version) {
       "libraries": [{
         "userSymbol": "upgradeVersion",
         "version": ${version},
-        "libraryId": "13apM5vog0OkpAGddoqd7iX4rPzBEBzTpIll5DRWi3A89gcPMYzugU3G8",
+        // <libraryId>は実行対象スクリプトのものを指定
+        "libraryId": "<libraryId>",
         "developmentMode": false
         }]
     }
